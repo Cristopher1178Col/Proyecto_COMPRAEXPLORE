@@ -1,0 +1,86 @@
+/* General Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f3f4f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Container */
+#Inicio_Sesion_Caja {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Title */
+#Inicio_Sesion_Caja h2 {
+    margin-bottom: 24px;
+    color: #333333;
+    font-size: 1.5rem;
+}
+
+/* Form Labels */
+#Iniciar_Sesion_Formulario label {
+    display: block;
+    text-align: left;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #555555;
+}
+
+/* Form Inputs */
+#Iniciar_Sesion_Formulario input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 16px;
+    border: 1px solid #cccccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-size: 1rem;
+    color: #333333;
+    background-color: #f9f9f9;
+    transition: border-color 0.3s ease;
+}
+
+#Iniciar_Sesion_Formulario input:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+/* Button */
+#Iniciar_Sesion_Formulario button {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#Iniciar_Sesion_Formulario button:hover {
+    background-color: #0056b3;
+}
+
+/* Forgot Password Link */
+#Emergencia {
+    display: block;
+    margin-top: 16px;
+    color: #007bff;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+#Emergencia:hover {
+    text-decoration: underline;
+}

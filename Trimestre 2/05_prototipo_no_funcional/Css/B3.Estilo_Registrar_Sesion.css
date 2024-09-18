@@ -1,0 +1,67 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f3f4f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#Registro_Caja {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+}
+
+#Registro_Caja h2 {
+    margin-bottom: 24px;
+    color: #333333;
+    font-size: 1.5rem;
+}
+
+#Registro_Formulario label {
+    display: block;
+    text-align: left;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #555555;
+}
+
+#Registro_Formulario input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 16px;
+    border: 1px solid #cccccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-size: 1rem;
+    color: #333333;
+    background-color: #f9f9f9;
+    transition: border-color 0.3s ease;
+}
+
+#Registro_Formulario input:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+#Registro_Formulario button {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#Registro_Formulario button:hover {
+    background-color: #0056b3;
+}
